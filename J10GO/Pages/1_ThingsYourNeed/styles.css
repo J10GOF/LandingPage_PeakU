@@ -1,0 +1,84 @@
+/* Estilos para las imágenes */
+.card-img-top {
+    width: 41.11223220825195px;
+    height: 48px;
+    position: relative;
+}
+.imgContenedor {
+    padding-left:18px ;
+}
+
+/* Estilos para las cards */
+.card {
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+    padding: 40px 20px 0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección */
+#ThisYourNeed {
+    background-image: url("../../Assets/1_ThingsYourNeed/Element.png"); 
+    background-repeat: no-repeat;
+    background-size: auto 120px; 
+    background-position: calc(100% - 60px) 100px; 
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px 80px;
+    border-radius: 8px;
+    background-color: #F7F8FC;
+}
+
+/* Estilos para el título h1 */
+#ThisYourNeed h1 {
+    font-family: "Volkhov", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+/* Estilos para la parte "Things you need to do" */
+#ThisYourNeed span {
+    color: #FA7436;
+}
+
+/* Estilos para el párrafo <p> */
+#Pprincipal {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+    color: #666666;
+}
+
+#Pcard {
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* Estilos para el título <h5> dentro de la card */
+.card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333333;
+}

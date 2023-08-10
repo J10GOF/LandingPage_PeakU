@@ -1,0 +1,76 @@
+/* Estilos para las imágenes */
+.card-img-top {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+}
+
+/* Estilos para las cards */
+.card {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección */
+#inicio {
+    text-align: left;
+    margin-top: 80px;
+}
+
+#inicio h1{
+    text-align: center;
+}
+
+#TituloBlog {
+    font-family: "Volkhov", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #222222;
+    padding-bottom: 30px;
+}
+
+/* Estilos para el título <h6> dentro de la card */
+.card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700; /* Negrita */
+    margin-bottom: 5px;
+    color: #333333;
+    text-align: left; /* Alineado a la izquierda */
+}
+
+/* Estilos para el pie de página en la card */
+#final {
+    text-align: left; /* Alineado a la izquierda */
+    padding-bottom: 10px;
+}
+
+#final p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    padding-left: 17px;
+}
+
+#SliderSeccion {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}

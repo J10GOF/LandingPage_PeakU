@@ -1,0 +1,166 @@
+/* Estilos generales para las cards */
+.card-img-top {
+    width: 41.11223220825195px;
+    height: 48px;
+    position: relative;
+}
+
+.imgContenedor {
+    padding-left: 18px;
+}
+
+.card {
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+    padding: 40px 20px 0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección #ThisYourNeed */
+#ThisYourNeed {
+    background-image: url("./Assets/1_ThingsYourNeed/Element.png");
+    background-repeat: no-repeat;
+    background-size: auto 120px;
+    background-position: calc(100% - 60px) 100px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px 80px;
+    border-radius: 8px;
+    background-color: #F7F8FC;
+}
+
+#ThisYourNeed h1 {
+    font-family: "Volkhov", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+#ThisYourNeed span {
+    color: #FA7436;
+}
+
+#Pprincipal {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+    color: #666666;
+}
+
+#Pcard {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+/* Estilos para la sección #Princpal */
+#Princpal {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px 80px;
+    border-radius: 8px;
+    background-color: #F7F8FC;
+}
+
+#Princpal h1 {
+    font-family: "Volkhov", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+/* Estilos para la sección con class "container" */
+.container .card-img-top {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.container .card {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#inicio {
+    text-align: left;
+    margin-top: 80px;
+}
+
+#inicio h1 {
+    text-align: center;
+}
+
+#TituloBlog {
+    font-family: "Volkhov", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #222222;
+    padding-bottom: 30px;
+}
+
+.container .card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #333333;
+    text-align: left;
+}
+
+#final {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#final p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    padding-left: 17px;
+}
+
+#SliderSeccion {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}

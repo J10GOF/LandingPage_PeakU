@@ -1,0 +1,123 @@
+/* Estilos para las imágenes */
+.card-img-top {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+}
+
+#Flechas {
+    position: relative;
+    padding-left: 840px;
+}
+
+#Flechas img {
+    width: auto;
+    height: 30px;
+}
+
+/* Estilos para las cards */
+.card {
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+    padding: none; 
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección */
+#Princpal {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px 80px;
+    border-radius: 8px;
+    rgba(254, 252, 251, 1);
+    background-image: url("../../Assets/VacationPlan/Element.png");
+    background-repeat: no-repeat;
+    background-size: auto 90px; 
+    background-position: calc(100% - 100px) 100px; 
+}
+
+/* Estilos para el título h1 */
+#Parte1Titulo {
+    font-family: "Volkhov", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+#header span {
+    color: #FA7436;
+}
+
+/* Estilos para el párrafo <p> */
+#Pprincipal {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+    color: #666666;
+}
+
+#Pcard {
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* Estilos para el título <h5> dentro de la card */
+.TituloCard {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+/* Estilos para el precio y el pie de página en la card */
+.Precio {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+}
+
+#footerCard, #CardConten {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footerCard {
+    padding: 0;
+    margin-bottom: 1px;
+}
+
+.dias, .calificacion {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+}
+
+.dias img, .calificacion img {
+    width: auto;
+    height: 13px;
+    padding-right: 4px;
+    padding-bottom: 4px ;
+}
